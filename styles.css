@@ -65,12 +65,12 @@ p{
     transition: background-color 0.3s; 
 }
 .swal2-confirm:hover {
-    background-color: rgb(238, 6, 37); 
+    background-color:  rgb(36, 151, 7);
 }
 
 /* Sweet Alert (Cancelar) */
 .swal2-cancel {
-    background-color: #f44336; 
+    background-color: hwb(4 21% 4%); 
     color: white;              
     font-size: 14px;           
     padding: 10px 20px;         
@@ -80,7 +80,7 @@ p{
     transition: background-color 0.3s; 
 }
 .swal2-cancel:hover {
-    background-color: rgb(238, 6, 37); 
+    background-color:  rgb(36, 151, 7);
 }
 
 

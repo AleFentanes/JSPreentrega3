@@ -4,7 +4,6 @@
 // Reinicia puntaje y juego
 document.getElementById("reiniciarBtn").addEventListener("click", function() {
     puntos = 0;
-    localStorage.setItem('puntos', JSON.stringify(puntos));
     traducir();  
 });
 
@@ -85,7 +84,6 @@ async function traducir() {
     }
 
     let continuar = true;
-
 
 
     // Bucle de juego
