@@ -74,7 +74,7 @@ async function traducir() {
     return buscarPorArticulo(articulo); // palabras filtradas por artículo ingresado
     }
 
-    // Si después de filtrar no hay palabras
+    // Si después de filtrar no escribe un articulo correcto
     if (palabrasFiltradas.length === 0) {
         await Swal.fire({
             icon: 'warning',
@@ -179,3 +179,4 @@ async function traducir() {
 }
 
 traducir();
+
